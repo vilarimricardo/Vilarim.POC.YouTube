@@ -1,3 +1,7 @@
+#EXECUTE
+
+Para executar os dois projetos execute o ./show.sh
+
 #Não implementadas
 
 - Implementação de serviço de log
@@ -8,3 +12,5 @@
 #Requisito em dúvida
 
 - Exibir dados do cache + aos do retorno da Api do Google (Merge de resultas)?
+
+
