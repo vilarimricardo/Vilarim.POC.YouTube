@@ -19,7 +19,7 @@ namespace Vilarim.POC.YouTube.Test
 
             var result = json.JsonDeserialize<IList<ResponseSearchItem>>();
 
-            result.Should().HaveCount(8);
+            result.Should().HaveCount(10);
             
             response.StatusCode.Should().Be(HttpStatusCode.OK);
         }

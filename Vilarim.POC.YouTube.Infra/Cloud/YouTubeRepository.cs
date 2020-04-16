@@ -42,7 +42,7 @@ namespace Vilarim.POC.YouTube.Infra.Cloud
             SearchResource.ListRequest listRequest = youtube.Search.List("snippet");
 
             listRequest.Q = text;
-            listRequest.MaxResults = 8;
+            listRequest.MaxResults = 10;
             listRequest.Order = SearchResource.ListRequest.OrderEnum.Relevance;
 
             SearchListResponse searchResponse = await listRequest.ExecuteAsync();
