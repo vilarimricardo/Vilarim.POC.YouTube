@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  vilarimpocyoutube:
+    image: vilarimpocyoutube
+    build:
+      context: .
+      dockerfile: Vilarim.POC.YouTube.Api/Dockerfile
+    ports:
+      - 80

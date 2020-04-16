@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Api", "Vilarim.POC.YouTube.Api\Vilarim.POC.YouTube.Api.csproj", "{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.IoC", "Vilarim.POC.YouTube.IoC\Vilarim.POC.YouTube.IoC.csproj", "{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Domain", "Vilarim.POC.YouTube.Domain\Vilarim.POC.YouTube.Domain.csproj", "{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Infra.Contracts", "Vilarim.POC.YouTube.Infra.Contracts\Vilarim.POC.YouTube.Infra.Contracts.csproj", "{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Infra", "Vilarim.POC.YouTube.Infra\Vilarim.POC.YouTube.Infra.csproj", "{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Test", "Vilarim.POC.YouTube.Test\Vilarim.POC.YouTube.Test.csproj", "{8C27C90D-404D-4A1E-9081-521D9C3AC583}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|x64.Build.0 = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|x86.Build.0 = Debug|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|x64.ActiveCfg = Release|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|x64.Build.0 = Release|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|x86.ActiveCfg = Release|Any CPU
+		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Release|x86.Build.0 = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|x64.Build.0 = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}.Release|x86.Build.0 = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|x64.Build.0 = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Debug|x86.Build.0 = Debug|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|x64.ActiveCfg = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|x64.Build.0 = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}.Release|x86.Build.0 = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x64.Build.0 = Debug|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{23DB2DBD-C3F7/home/ricardo/Documentos/Vilarim.POC.YouTube/Vilarim.POC.YouTube.Api/Vilarim.POC.YouTube.Api.csproj : error NU1605: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 3.1.1 para 3.1.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente.  [/home/ricardo/Documentos/Vilarim.POC.YouTube/Vilarim.POC.YouTube.sln]-4C8F-97BC-AF1F8BE33625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x64.ActiveCfg = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x64.Build.0 = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x86.ActiveCfg = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x86.Build.0 = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x64.Build.0 = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
