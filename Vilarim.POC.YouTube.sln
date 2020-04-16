@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Api", "Vilarim.POC.YouTube.Api\Vilarim.POC.YouTube.Api.csproj", "{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.Api", "Vilarim.POC.YouTube.Api\Vilarim.POC.YouTube.Api.csproj", "{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.IoC", "Vilarim.POC.YouTube.IoC\Vilarim.POC.YouTube.IoC.csproj", "{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.IoC", "Vilarim.POC.YouTube.IoC\Vilarim.POC.YouTube.IoC.csproj", "{EB86A569-4FCD-43AF-AAFD-F9E1A611CF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Domain", "Vilarim.POC.YouTube.Domain\Vilarim.POC.YouTube.Domain.csproj", "{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.Domain", "Vilarim.POC.YouTube.Domain\Vilarim.POC.YouTube.Domain.csproj", "{0F2650EB-8F94-4261-9E9D-F17E67F0EA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Infra.Contracts", "Vilarim.POC.YouTube.Infra.Contracts\Vilarim.POC.YouTube.Infra.Contracts.csproj", "{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.Infra.Contracts", "Vilarim.POC.YouTube.Infra.Contracts\Vilarim.POC.YouTube.Infra.Contracts.csproj", "{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Infra", "Vilarim.POC.YouTube.Infra\Vilarim.POC.YouTube.Infra.csproj", "{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.Infra", "Vilarim.POC.YouTube.Infra\Vilarim.POC.YouTube.Infra.csproj", "{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilarim.POC.YouTube.Test", "Vilarim.POC.YouTube.Test\Vilarim.POC.YouTube.Test.csproj", "{8C27C90D-404D-4A1E-9081-521D9C3AC583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilarim.POC.YouTube.Test", "Vilarim.POC.YouTube.Test\Vilarim.POC.YouTube.Test.csproj", "{8C27C90D-404D-4A1E-9081-521D9C3AC583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D8D9C1C6-230E-43ED-98CB-E09DFBF56866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -70,7 +67,20 @@ Global
 		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x64.Build.0 = Debug|Any CPU
 		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Debug|x86.Build.0 = Debug|Any CPU
-		{23DB2DBD-C3F7/home/ricardo/Documentos/Vilarim.POC.YouTube/Vilarim.POC.YouTube.Api/Vilarim.POC.YouTube.Api.csproj : error NU1605: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 3.1.1 para 3.1.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente.  [/home/ricardo/Documentos/Vilarim.POC.YouTube/Vilarim.POC.YouTube.sln]-4C8F-97BC-AF1F8BE33625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|x64.ActiveCfg = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|x64.Build.0 = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{23DB2DBD-C3F7-4C9C-A83E-23E8B8FBABAD}.Release|x86.Build.0 = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|x64.Build.0 = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Debug|x86.Build.0 = Debug|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x64.ActiveCfg = Release|Any CPU
 		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x64.Build.0 = Release|Any CPU
 		{9648067D-F1E1-4C8F-97BC-AF1F8BE33625}.Release|x86.ActiveCfg = Release|Any CPU
@@ -87,5 +97,11 @@ Global
 		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x64.Build.0 = Release|Any CPU
 		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x86.ActiveCfg = Release|Any CPU
 		{8C27C90D-404D-4A1E-9081-521D9C3AC583}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8266FF6-9EAD-45DE-AF81-6E8764486E2B}
 	EndGlobalSection
 EndGlobal
