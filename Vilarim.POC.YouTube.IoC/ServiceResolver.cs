@@ -31,8 +31,6 @@ namespace Vilarim.POC.YouTube.IoC
         {
             services.AddScoped<IRepository, PostgresRepository>();
             services.AddScoped<IYouTubeRepository, YouTubeRepository>();
-            //TODO: Remover após implementação do postgres
-           // services.AddDbContext<YouTubeContext>(o => o.UseInMemoryDatabase("TestScope").EnableSensitiveDataLogging(true), contextLifetime: ServiceLifetime.Scoped);
         }
 
         private static void ResolveSingleton(IServiceCollection services)

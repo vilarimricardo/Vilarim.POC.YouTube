@@ -18,6 +18,7 @@ namespace Vilarim.POC.YouTube.Infra.MediatR
                 return result;
             }
             catch (Exception ex) {
+                Console.WriteLine(ex.StackTrace);
                 throw ex;
              }
         }

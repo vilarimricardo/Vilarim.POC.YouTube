@@ -20,7 +20,7 @@ namespace Vilarim.POC.YouTube.Infra.ActionsHandler
         {
             var result = await _youTubeRepository.Search(request.Search);
 
-            //await _mediatr.Send(new PersistSearch(result));
+            await _mediatr.Send(new PersistSearch(result));
 
             return result;
         }

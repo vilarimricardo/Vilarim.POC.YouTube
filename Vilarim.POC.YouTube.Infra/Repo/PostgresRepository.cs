@@ -13,15 +13,15 @@ namespace Vilarim.POC.YouTube.Infra.Repo
     {
          private YouTubeContext _context;
 
-        public PostgresRepository(IServiceProvider serviceProvider)
+        public PostgresRepository(IServiceProvider service)
         {
-            _context = serviceProvider.GetRequiredService<YouTubeContext>();
+            //_context = service.GetService<YouTubeContext>();
         }
 
         public async Task SaveRangeAsync(IList<ResponseSearchItem> entites)
         {
-            await _context.ResponseSearchItem.AddRangeAsync(entites);
-            await _context.SaveChangesAsync();
+            //await _context.ResponseSearchItem.AddRangeAsync(entites);
+            //await _context.SaveChangesAsync();
         }
     }
 }

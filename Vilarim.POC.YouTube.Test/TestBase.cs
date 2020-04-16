@@ -14,13 +14,14 @@ using Vilarim.POC.YouTube.Api;
 using Vilarim.POC.YouTube.Infra;
 using Vilarim.POC.YouTube.Infra.Contracts.Repo;
 using Vilarim.POC.YouTube.Infra.Repo;
+using Vilarim.POC.YouTube.IoC;
 
 namespace Vilarim.POC.YouTube.Test
 {
-    public class BaseTest
+    public class TestBase
     {
         private TestServer testSerser;
-        protected  bool UseMock;
+        protected bool UseMock;
 
         protected TestServer TestServer
         {
@@ -29,9 +30,9 @@ namespace Vilarim.POC.YouTube.Test
 
                 if (testSerser == null)
                 {
-                   var webHost = new WebHostBuilder()
-                    .UseStartup<Startup>() // <- Não usar o setup padrão pois ele injeta os servicos reais, não mocados 
-                    .ConfigureServices(x => ServicesResolverTest.Resolve(x, UseMock));
+                    var webHost = new WebHostBuilder()
+                     .UseStartup<Startup>() // <- Não usar o setup padrão pois ele injeta os servicos reais, não mocados 
+                     .ConfigureServices(x => ServicesResolverTest.Resolve(x));
 
                     testSerser = new TestServer(webHost);
                 }
@@ -63,11 +64,11 @@ namespace Vilarim.POC.YouTube.Test
 
     public class ServicesResolverTest
     {
-        public static void Resolve(IServiceCollection services, bool useMock)
+        public static void Resolve(IServiceCollection services)
         {
-            services.AddScoped<IRepository, PostgresRepository>();
-            services.AddDbContext<YouTubeContext>(o => o.UseInMemoryDatabase("TestScope").EnableSensitiveDataLogging(true), 
-            contextLifetime: ServiceLifetime.Scoped);
+            services.AddDbContext<YouTubeContext>(opt => opt.UseInMemoryDatabase(databaseName: "TesteScope"),
+            ServiceLifetime.Scoped,
+            ServiceLifetime.Scoped);
         }
     }
 
